@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite19",
-    "path": "sprites/Sprite19/Sprite19.yy",
+    "name": "enemy_dead",
+    "path": "sprites/enemy_dead/enemy_dead.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemy_dead","path":"objects/obj_enemy_dead/obj_enemy_dead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_enemy_dead","path":"objects/obj_enemy_dead/obj_enemy_dead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_marker",
+  "name": "obj_enemy_dead",
   "tags": [],
   "resourceType": "GMObject",
 }
